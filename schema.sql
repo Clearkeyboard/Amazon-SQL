@@ -24,3 +24,27 @@ INSERT INTO products (product_name, department_name, price, stock_quantity) VALU
 INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ('Battle at Kemballs Cascade', 'Toys&Games', 35, 60);
 INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ('Nintendo Switch', 'electronics', 300, 2);
 INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES ('Playstation VR', 'pets', 1, 1);
+
+USE bamazon;
+CREATE TABLE Departments(
+DepartmentId int AUTO_INCREMENT,
+PRIMARY KEY(DepartmentId),
+department_name varchar(50) NOT NULL,
+OverHeadCosts DECIMAL(11,2) NOT NULL,
+TotalSales DECIMAL(11,2) NOT NULL);
+
+
+INSERT INTO Departments (department_name, OverHeadCosts, TotalSales) VALUES (
+'Pets',
+10000,
+0);
+
+INSERT INTO Departments (department_name, OverHeadCosts, TotalSales) VALUES (
+'electronics',
+10000,
+0);
+
+INSERT INTO Departments (department_name, OverHeadCosts, TotalSales) VALUES (
+'Toys&Games',
+20000,
+0);

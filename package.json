@@ -1,11 +1,26 @@
 {
   "name": "bamazon",
   "version": "1.0.0",
-  "description": "",
   "main": "bamazon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clearkeyboard/Amazon-SQL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Clearkeyboard/Amazon-SQL/issues"
+  },
+  "homepage": "https://github.com/Clearkeyboard/Amazon-SQL#readme",
+  "description": ""
 }
