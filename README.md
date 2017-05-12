@@ -29,7 +29,8 @@ The first option allows the user to see the list of products that are currently 
 
 The second option allows the user to see a list of all inventory items that have less than 5 items in stock.  If there are no products that meet this criteria, the user will see an empty table.
 
-![Bamazon Manager Portal - Options 1 & 2](image/managerview1.png)(image/managerview2.png)
+![Bamazon Manager Portal - Options 1 ](image/managerview1.png)
+![Bamazon Manager Portal - Options 2](image/managerview2.png)
 
 
 ###### Manager Options 3 & 4
@@ -39,4 +40,5 @@ The third option allows the user to update the inventory for a specific product.
 
 The last option allows the user to add a new product to the inventory.  Prompts ask the user for the product id#, the product name, the department name, the price and the stock quantity.
 
-![Bamazon Manager Portal - Options 3 & 4](image/managerview3.png)(image/managerview4.png)
+![Bamazon Manager Portal - Options 3](image/managerview3.png)
+![Bamazon Manager Portal - Options 4](image/managerview4.png)
